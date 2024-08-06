@@ -32,7 +32,7 @@ class triangle:
         self.point_3: Point= point_3
 
     def area(self):
-        if ...
+        area= 1/2()
 
     def draw(self):
         x = [self.point_1.x, self.point_2.x, self.point_3.x, self.point_1.x]
