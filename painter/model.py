@@ -14,7 +14,7 @@ class Circle:
         self.center: Point= center
 
 
-    def area_circle(self)->float:
+    def area(self)->float:
         Area = math.pi*(self.radius)**2
         return Area
     def Draw(self):
@@ -26,11 +26,22 @@ class Circle:
         Circle
         return  f"with center at {self.x}, {self.y} and {self.radius} r:"
 class triangle:
-    def __init__(self, point1:Point, point2:Point, point3: Point):
-        self.point1: Point= point1
-        self.point2: Point= point2
-        self.point3: Point= point3
+    def __init__(self, point_1:Point, point_2:Point, point_3: Point):
+        self.point_1: Point= point_1
+        self.point_2: Point= point_2
+        self.point_3: Point= point_3
 
-    def area_triangle(self):
+    def area(self):
+        if ...
+
+    def draw(self):
+        x = [self.point_1.x, self.point_2.x, self.point_3.x, self.point_1.x]
+        y = [self.point_1.y, self.point_2.y, self.point_3.y, self.point_1.y]
+        plt.fill(x, y, color='b')
+        plt.axis("scaled")
+        plt.show()
+    def __str__(self):
+        triangle
+        return f"with vertices at {self.point_1.x}, {self.point_1.y}, {self.point_2.x}, {self.point_2.y} and {self.point_3.x}, {self.point_3.y}"
 
 
